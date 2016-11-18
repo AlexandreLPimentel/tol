@@ -5,9 +5,22 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\baby_right</sprite>
+    <sprite>sprites\baby_idle_right</sprite>
+    <sprite>sprites\spr_wall</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\bck_blueStone</background>
+  </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\baby</object>
+    <object>objects\obj_wall</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_sandbox</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
