@@ -17,7 +17,8 @@
   <objects name="objects">
     <object>objects\baby</object>
     <object>objects\obj_wall</object>
-    <object>objects\obj_debug</object>
+    <object>objects\obj_baby_debug</object>
+    <object>objects\baby_button</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_sandbox</room>
