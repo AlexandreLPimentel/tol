@@ -100,6 +100,8 @@
     <instance objName="baby_button" x="48" y="48" name="inst_59B42FBC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="young_adult_button" x="240" y="48" name="inst_E260E30E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="young_adult" x="48" y="272" name="inst_D790C595" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="adult_button" x="304" y="48" name="inst_8360D3D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="adult" x="48" y="272" name="inst_7E928701" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

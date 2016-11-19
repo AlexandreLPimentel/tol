@@ -10,6 +10,8 @@
     <sprite>sprites\baby_idle_right</sprite>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\young_adult_right</sprite>
+    <sprite>sprites\adult_right</sprite>
+    <sprite>sprites\adult_idle_right</sprite>
     <sprite>sprites\young_adult_idle_right</sprite>
   </sprites>
   <backgrounds name="background">
@@ -19,10 +21,12 @@
   <objects name="objects">
     <object>objects\baby</object>
     <object>objects\young_adult</object>
+    <object>objects\adult</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_baby_debug</object>
     <object>objects\baby_button</object>
     <object>objects\young_adult_button</object>
+    <object>objects\adult_button</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_sandbox</room>

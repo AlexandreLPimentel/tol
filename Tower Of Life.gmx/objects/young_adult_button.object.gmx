@@ -29,7 +29,7 @@
 //instance_deactivate_object(child);
 //instance_deactivate_object(teen);
 instance_activate_object(young_adult);
-//instance_deactivate_object(adult);
+instance_deactivate_object(adult);
 //instance_deactivate_object(old);
 //instance_deactivate_object(ancient);
 </string>
