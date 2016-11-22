@@ -9,29 +9,55 @@
     <sound>sound\jmp_adult</sound>
   </sounds>
   <sprites name="sprites">
+    <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\baby_right</sprite>
     <sprite>sprites\baby_idle_right</sprite>
-    <sprite>sprites\spr_wall</sprite>
+    <sprite>sprites\child_right</sprite>
+    <sprite>sprites\child_idle_right</sprite>
     <sprite>sprites\young_adult_right</sprite>
+    <sprite>sprites\young_adult_idle_right</sprite>
     <sprite>sprites\adult_right</sprite>
     <sprite>sprites\adult_idle_right</sprite>
-    <sprite>sprites\young_adult_idle_right</sprite>
+    <sprite>sprites\spr_enemy</sprite>
+    <sprite>sprites\spr_killable</sprite>
+    <sprite>sprites\spr_portal</sprite>
+    <sprite>sprites\spr_checkpoint</sprite>
+    <sprite>sprites\spr_spike</sprite>
+    <sprite>sprites\spr_platform</sprite>
+    <sprite>sprites\spr_moveplatform</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_blueStone</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_death.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\baby</object>
+    <object>objects\child</object>
     <object>objects\young_adult</object>
     <object>objects\adult</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_baby_debug</object>
     <object>objects\baby_button</object>
+    <object>objects\child_button</object>
     <object>objects\young_adult_button</object>
     <object>objects\adult_button</object>
+    <object>objects\obj_lethal</object>
+    <object>objects\obj_enemy_nofall</object>
+    <object>objects\obj_enemy</object>
+    <object>objects\obj_portal</object>
+    <object>objects\obj_checkpoint</object>
+    <object>objects\obj_enemy_killable</object>
+    <object>objects\obj_enemy_nofall_killable</object>
+    <object>objects\obj_platform</object>
+    <object>objects\obj_moveplatform</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_initialize</room>
+    <room>rooms\rm_sandbox2</room>
+    <room>rooms\rm_sandox2_1</room>
     <room>rooms\rm_sandbox</room>
   </rooms>
   <help>
