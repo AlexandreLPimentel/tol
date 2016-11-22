@@ -93,7 +93,7 @@ killable = 0;
 //Enemy Collision
 if (place_meeting(x,y,child)){
     if (killable) &amp;&amp; (child.y &lt; y-16){
-        with (child) vsp = -jumpspeed;
+        with (child) vsp = -jumpspeed/2;
         instance_destroy();
     }
     else {
