@@ -26,6 +26,9 @@
     <sprite>sprites\spr_platform</sprite>
     <sprite>sprites\spr_moveplatform</sprite>
     <sprite>sprites\spr_powerup</sprite>
+    <sprite>sprites\sprite17</sprite>
+    <sprite>sprites\sprite18</sprite>
+    <sprite>sprites\sprite20</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_blueStone</background>
@@ -55,9 +58,13 @@
     <object>objects\obj_platform</object>
     <object>objects\obj_moveplatform</object>
     <object>objects\obj_powerup</object>
+    <object>objects\barril</object>
+    <object>objects\bola_de_espinhos</object>
+    <object>objects\serrilha</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
+    <room>rooms\room_level_intermediate</room>
     <room>rooms\rm_sandbox2</room>
     <room>rooms\rm_sandox2_1</room>
     <room>rooms\rm_sandbox</room>
