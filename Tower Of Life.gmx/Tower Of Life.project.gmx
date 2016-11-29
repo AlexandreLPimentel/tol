@@ -26,7 +26,7 @@
     <sprite>sprites\spr_platform</sprite>
     <sprite>sprites\spr_moveplatform</sprite>
     <sprite>sprites\spr_powerup</sprite>
-    <sprite>sprites\sprite17</sprite>
+    <sprite>sprites\spr_barrel</sprite>
     <sprite>sprites\sprite18</sprite>
     <sprite>sprites\sprite20</sprite>
     <sprite>sprites\spr_baby_toy</sprite>
