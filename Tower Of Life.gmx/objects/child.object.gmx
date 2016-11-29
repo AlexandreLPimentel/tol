@@ -30,12 +30,13 @@ grav = 0.5;
 hsp = 0;
 hsp_carry = 0;
 vsp = 0;
-jumpspeed = 10;
-movespeed_normal = 3;
-movespeed_powerup= 5;
+jumpspeed = 8.5;
+movespeed_normal = 5;
+movespeed_powerup= 7;
 
 movespeed = movespeed_normal;
 
+walljump = 0;
 jumps = 0;
 jumpsmax = 2;
 
@@ -120,8 +121,10 @@ if(key_jump) &amp;&amp; (jumps &gt; 0){
     vsp = -jumpspeed;
 }
 
-if (key_jump) &amp;&amp; (place_meeting(x+1,y, obj_wall) || place_meeting(x-1,y, obj_wall)){
-    vsp =- jumpspeed;
+if(walljump){
+    if (key_jump) &amp;&amp; (place_meeting(x+1,y, obj_wall) || place_meeting(x-1,y, obj_wall)){
+        vsp =- jumpspeed;
+    }
 }
 
 var hsp_final = hsp + hsp_carry;
