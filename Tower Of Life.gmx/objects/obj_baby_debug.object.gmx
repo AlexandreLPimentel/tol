@@ -76,7 +76,7 @@ draw_rectangle(32, 32, 128, 64, false)
 
 draw_set_colour(c_white)
 //draw_text(50,50, "A: " + string(baby.A_is_pressed) + " D: " + string(baby.D_is_pressed))
-draw_text(50,50, "Sprite: " + string(baby.climb))
+draw_text(50,50, "h: " + string(baby.hcollision) + "v: " + string(baby.vcollision))
 </string>
           </argument>
         </arguments>
