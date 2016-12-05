@@ -15,7 +15,10 @@
     <sprite>sprites\child_right</sprite>
     <sprite>sprites\child_idle_right</sprite>
     <sprite>sprites\young_adult_right</sprite>
+    <sprite>sprites\young_adult_barrel_walking_right</sprite>
     <sprite>sprites\young_adult_idle_right</sprite>
+    <sprite>sprites\young_adult_barrel_right</sprite>
+    <sprite>sprites\young_adult_barrel_walk</sprite>
     <sprite>sprites\adult_right</sprite>
     <sprite>sprites\adult_idle_right</sprite>
     <sprite>sprites\spr_enemy</sprite>
@@ -66,11 +69,11 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
+    <room>rooms\rm_sandbox</room>
     <room>rooms\room_level_intermediate</room>
     <room>rooms\baby_room</room>
     <room>rooms\rm_sandbox2</room>
     <room>rooms\rm_sandox2_1</room>
-    <room>rooms\rm_sandbox</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
