@@ -484,16 +484,24 @@
             <kind>1</kind>
             <string>if(hasBarril)
 {
-    sprite_index = young_adult_idle_right;
     if(turnedRight)
     {
-        instance_create(x+10, y-47, barril);
+        if (!place_meeting(x+50, y, obj_wall))
+        {
+            sprite_index = young_adult_idle_right;
+            instance_create(x+10, y-47, barril);
+            hasBarril = 0;
+        }
     }
     else
     {
-        instance_create(x-65, y-47, barril);
+        if (!place_meeting(x-65, y, obj_wall))
+        {
+            sprite_index = young_adult_idle_right;
+            instance_create(x-65, y-47, barril);
+            hasBarril = 0;
+        }
     }
-    hasBarril = 0;
 }
 else
 {
