@@ -1319,7 +1319,7 @@ else
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>-9.5</string>
+            <string>-10</string>
           </argument>
         </arguments>
       </action>
