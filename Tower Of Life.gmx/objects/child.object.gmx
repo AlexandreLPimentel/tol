@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>///Initialize Variables
 grav = 0.5;
+atrito = 1.0;
 hsp = 0;
 hsp_carry = 0;
 vsp = 0;
@@ -104,11 +105,17 @@ key_down = keyboard_check(ord("S"));
 /**/
 
 //pressed is only 1 if it wasn't pressed the frame before
-key_jump = keyboard_check_pressed(vk_space);
+if (keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("W") )) key_jump = 1;
+else key_jump = 0;
+//key_jump = keyboard_check_pressed(vk_space);
+//key_jump = keyboard_check_pressed(ord("W"));
 
 //React to inputs
 move = key_left + key_right;
-hsp = move * movespeed;
+if (move != 0) hsp = move * movespeed;
+else{
+    hsp = hsp + (-sign(hsp)) * atrito;
+}
 if (vsp &lt; 10) vsp += grav;
 
 if (place_meeting(x,y+1,obj_wall))
@@ -120,10 +127,19 @@ if(key_jump) &amp;&amp; (jumps &gt; 0){
     jumps -= 1;
     vsp = -jumpspeed;
 }
+if(hsp &gt; movespeed) hsp = movespeed;
+if(hsp &lt; -movespeed) hsp = -movespeed;
 
 if(walljump){
-    if (key_jump) &amp;&amp; (place_meeting(x+1,y, obj_wall) || place_meeting(x-1,y, obj_wall)){
+    if (key_jump) &amp;&amp; place_meeting(x+1,y, obj_wall) {
         vsp =- jumpspeed;
+        hsp = 2* -movespeed;
+    }
+}
+if(walljump){
+    if (key_jump) &amp;&amp;  place_meeting(x-1,y, obj_wall){
+        vsp =- jumpspeed;
+        hsp = 2*movespeed;
     }
 }
 

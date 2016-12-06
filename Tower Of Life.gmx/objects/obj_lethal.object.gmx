@@ -101,6 +101,16 @@ if (place_meeting(x,y,child)){
         scr_death();
     }
 }
+
+if (place_meeting(x,y,baby)){
+    if (killable) &amp;&amp; (baby.y &lt; y-16){
+        instance_destroy();
+    }
+    else {
+        //room_restart();
+        scr_death();
+    }
+}
 </string>
           </argument>
         </arguments>

@@ -165,7 +165,6 @@
     <instance objName="obj_lethal" x="432" y="720" name="inst_8673534A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lethal" x="464" y="720" name="inst_82BD6032" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lethal" x="496" y="720" name="inst_A2064BE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="child" x="96" y="704" name="inst_16162969" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="864" y="768" name="inst_C0286B63" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="864" y="736" name="inst_3329D46B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="896" y="736" name="inst_A0EAB13F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1373,10 +1372,10 @@
     <instance objName="obj_platform" x="10032" y="544" name="inst_86BD9B16" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="barril" x="10448" y="704" name="inst_CA5EE743" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_powerup" x="10832" y="720" name="inst_AF68B717" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="barril" x="10544" y="544" name="inst_06E0D105" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="barril" x="10560" y="544" name="inst_06E0D105" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="barril" x="10496" y="544" name="inst_8096C997" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="barril" x="10608" y="544" name="inst_3CFF1951" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="barril" x="10672" y="544" name="inst_941D8692" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="barril" x="10624" y="544" name="inst_3CFF1951" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="barril" x="10688" y="544" name="inst_941D8692" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_checkpoint" x="10448" y="528" name="inst_17FE83CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="10816" y="320" name="inst_732C8D92" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="10848" y="320" name="inst_AECCC052" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1393,6 +1392,7 @@
     <instance objName="obj_wall" x="10736" y="0" name="inst_23E19A17" locked="0" code="" scaleX="1" scaleY="9" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_nofall" x="10256" y="528" name="inst_3964EC47" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_nofall" x="10944" y="720" name="inst_9999A91F" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="child" x="112" y="720" name="inst_17995A35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
