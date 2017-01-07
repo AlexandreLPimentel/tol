@@ -41,6 +41,8 @@ walljump = 0;
 jumps = 0;
 jumpsmax = 2;
 
+got_lollipop = 0;
+
 if(global.checkpointR == room){
   x = global.checkpointx;
   y = global.checkpointy;
