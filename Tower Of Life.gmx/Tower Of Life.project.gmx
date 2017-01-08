@@ -37,6 +37,8 @@
     <sprite>sprites\girl</sprite>
     <sprite>sprites\sprite26</sprite>
     <sprite>sprites\water</sprite>
+    <sprite>sprites\spr_baby_girl</sprite>
+    <sprite>sprites\spr_man</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_blueStone</background>
@@ -52,6 +54,8 @@
     <object>objects\adult</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_wall_trap</object>
+    <object>objects\obj_wall_swap_del</object>
+    <object>objects\obj_wall_swap_ins</object>
     <object>objects\obj_baby_debug</object>
     <object>objects\baby_button</object>
     <object>objects\child_button</object>
@@ -61,6 +65,7 @@
     <object>objects\obj_enemy_nofall</object>
     <object>objects\obj_enemy</object>
     <object>objects\obj_portal</object>
+    <object>objects\teleporter</object>
     <object>objects\obj_checkpoint</object>
     <object>objects\obj_enemy_killable</object>
     <object>objects\obj_enemy_nofall_killable</object>
@@ -74,16 +79,20 @@
     <object>objects\baby_toy</object>
     <object>objects\object26</object>
     <object>objects\object29</object>
+    <object>objects\object33</object>
     <object>objects\lollipop</object>
     <object>objects\waters</object>
+    <object>objects\obj_baby_girl</object>
+    <object>objects\obj_man</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
-    <room>rooms\room_level_intermediate</room>
+    <room>rooms\room_final</room>
     <room>rooms\baby_room</room>
+    <room>rooms\room_level_intermediate</room>
     <room>rooms\rm_sandbox2</room>
-    <room>rooms\rm_sandbox</room>
     <room>rooms\rm_sandox2_1</room>
+    <room>rooms\rm_sandbox</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

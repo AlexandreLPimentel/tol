@@ -33,27 +33,6 @@
           </argument>
         </arguments>
       </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>instance_deactivate_object(object29);
-</string>
-          </argument>
-        </arguments>
-      </action>
     </event>
     <event eventtype="8" enumb="0">
       <action>
@@ -72,11 +51,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(distance_to_object(young_adult) &lt; 100){
+            <string>if(distance_to_object(adult) &lt; 100){
     draw_set_halign(fa_center);
     draw_set_valign(fa_middle);
     draw_set_colour(c_white);
-    draw_text(x-50, y-30, "I'll help you up! Jump on my head.");
+    draw_text(x-50, y-30, "Since you helped me so many years ago, I'll help you over!");
 }
 </string>
           </argument>
