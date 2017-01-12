@@ -39,6 +39,8 @@
     <sprite>sprites\water</sprite>
     <sprite>sprites\spr_baby_girl</sprite>
     <sprite>sprites\spr_man</sprite>
+    <sprite>sprites\WTutorial</sprite>
+    <sprite>sprites\sprite31</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_blueStone</background>
@@ -84,6 +86,8 @@
     <object>objects\waters</object>
     <object>objects\obj_baby_girl</object>
     <object>objects\obj_man</object>
+    <object>objects\WTutorial_obj</object>
+    <object>objects\FTutorial</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
