@@ -87,9 +87,9 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
-    <room>rooms\room_final</room>
     <room>rooms\baby_room</room>
     <room>rooms\room_level_intermediate</room>
+    <room>rooms\room_final</room>
     <room>rooms\rm_sandbox2</room>
     <room>rooms\rm_sandox2_1</room>
     <room>rooms\rm_sandbox</room>
