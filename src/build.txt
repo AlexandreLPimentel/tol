@@ -1,0 +1,5 @@
+This is a Gamemaker project. To build it, you need to:
+
+1 - Install Gamemaker Studio 1.4 (http://www.yoyogames.com/get)
+2 - Open the Tower Of Life.project.gmx inside the folder next to this file
+3 - Press the green play button or go to file->create application

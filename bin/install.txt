@@ -1,0 +1,2 @@
+This is a standalone executable requiring no installation.
+It runs on Windows only.
