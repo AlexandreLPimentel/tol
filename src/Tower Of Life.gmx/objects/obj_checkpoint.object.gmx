@@ -57,6 +57,18 @@ if(place_meeting(x,y,child)){
     global.checkpointy = y;
     global.checkpointR = room;
 }
+if(place_meeting(x,y,baby)){
+    global.checkpoint = id;
+    global.checkpointx = x;
+    global.checkpointy = y;
+    global.checkpointR = room;
+}
+if(place_meeting(x,y,young_adult)){
+    global.checkpoint = id;
+    global.checkpointx = x;
+    global.checkpointy = y;
+    global.checkpointR = room;
+}
 
 if(global.checkpointR == room){
     if(global.checkpoint == id) image_index = 1;
