@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>self</parentName>
+  <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -104,6 +104,26 @@ if (place_meeting(x,y,child)){
 
 if (place_meeting(x,y,baby)){
     if (killable) &amp;&amp; (baby.y &lt; y-16){
+        instance_destroy();
+    }
+    else {
+        //room_restart();
+        scr_death();
+    }
+}
+
+if (place_meeting(x,y,young_adult)){
+    if (killable) &amp;&amp; (young_adult.y &lt; y-16){
+        instance_destroy();
+    }
+    else {
+        //room_restart();
+        scr_death();
+    }
+}
+
+if (place_meeting(x,y,adult)){
+    if (killable) &amp;&amp; (adult.y &lt; y-16){
         instance_destroy();
     }
     else {

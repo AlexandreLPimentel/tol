@@ -140,11 +140,11 @@ view_visible[1]=true;
           </argument>
           <argument>
             <kind>0</kind>
-            <string>x</string>
+            <string>x+16</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>y</string>
+            <string>y+16</string>
           </argument>
         </arguments>
       </action>
